@@ -6,6 +6,7 @@
     <title>Blender Animation Tutorial</title>
 </head>
 <body>
+    
     <header>Blender Animation Tutorial</header>
     <nav></nav>
     <h1>Step 1 – Installing the Blender Add-on</h1>
@@ -52,6 +53,98 @@
         <div class="overview">
             <h2>Overview</h2>
             <p class="explain"></p>
+        </div>
+    </section>
+    <section>
+        <h2> Importing a Craft File</h2>
+        <h3>Open the Craft Importer</h3>
+        <div>
+            <p></p>
+            <img src="#">
+        </div>
+        <div>
+            <p></p>
+            <img src="#">
+        </div>
+        <div>
+            <p></p>
+            <img src="#">
+        </div>
+    </section>
+    <section>
+        <div>
+        <h2>Blender Version Note</h2>
+        <h3>Working in Different Blender Versions</h3>
+        <p>At this point, you do not need to remain in Blender 3.6. You can save the imported craft file and then append it into another Blender version if you prefer.<br>This tutorial continues using Blender 3.6, since it is commonly used for animation workflows, but the process should work in other compatible versions as well.</p>
+        <img src="#">
+        </div>
+        <div>
+            <h2>Separating the Ship Parts</h2>
+            <h3>Converting Instances into Real Objects</h3>
+            <p class="explain">When the craft first imports into Blender, it will appear as one combined object and will contain many empty objects used by the game.<br>To separate the parts:
+                <ol>
+                    <li>Select the imported ship.</li>
+                    <li>Click Object in the top menu.</li>
+                    <li>Choose Apply.</li>
+                    <li>Select Make Instances Real.</li>
+                </ol>
+            This converts the instanced parts into individual objects so they can be edited and animated.</p>
+            <img src="#">
+        </div>
+        <div>
+            <h2>Removing Unnecessary Empty Objects</h2>
+            <h3>Cleaning Up the Scene</h3>
+            <p class="explain">After separating the objects, the scene will still contain many empty objects that are not needed for animation.<br>Instead of deleting them one by one, you can remove them quickly using the following method:
+                <ol>
+                    <li>Click Select</li>
+                    <li>Choose Select by Type</li>
+                    <li>Select Mesh</li>
+                </ol>
+            This selects all mesh objects in the scene.<br>Next:
+                <ol>
+                    <li>Click Select again</li>
+                    <li>Choose Invert Selection</li>
+                    <li>Press X to delete the selected objects</li>
+                </ol>
+            This removes all the empty objects and leaves only the ship parts.</p>
+            <img src="#">
+        </div>
+        <div>
+            <h2>Checking Materials and Parts</h2>
+            <h3>Reviewing Imported Materials</h3>
+            <p class="explain">Switch to Material Preview Mode to see how the craft materials were imported.<br>You should now see:
+                <ul>
+                    <li>Colored parts</li>
+                    <li>Engine covers</li>
+                    <li>Various materials used by the craft</li>
+                </ul>
+            At this</p>
+            <img src="#">
+        </div>
+        <div>
+            <h2>Preparing the Ship for Animation</h2>
+            <h3>Parenting the Craft to an Empty Object</h3>
+            <p class="explain">Since the craft is made up of many individual parts, animating it directly can be difficult. A simple solution is to parent the ship to a single control object.<br>To do this:
+                <ol>
+                    <li>Press Shift + A</li>
+                    <li>Add an Empty → Cube</li>
+                    <li>Move the empty object to the center of mass of the ship</li>
+                    <li>Press A to select all objects</li>
+                    <li>Press Ctrl + P</li>
+                    <li>Choose Parent to Object</li>
+                </ol>
+            Now when you move or rotate the empty object, the entire ship will move together as a single unit.</p>
+            <img src="#">
+        </div>
+        <div>
+            <h3>Result</h3>
+            <p class="explain">At this point you should have:
+                <ul>
+                    <li>A clean ship model</li>
+                    <li>Unnecessary objects removed</li>
+                    <li>The entire craft controlled by a single empty object</li>
+                </ul>
+            Your ship is now ready to be positioned, animated, and rendered inside Blender.</p>
         </div>
     </section>
 </body>
