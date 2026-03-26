@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/example_style.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/logo.jpg" alt="logo">
+        <h2>Blender Animation Tutorial</h2>
+    </header>
+    <nav>
+        <hr>
+        <a href="index.html">Home</a>
+        <a>Add-on</a>
+        <a>Importing</a>
+        <a>Texturing</a>
+        <a>Rigs</a>
+        <hr>
+    </nav>
+    <main>
+        <h3>Step 3 - Changing and Editing Part Textures</h3>
+        <h4>Overview</h4>
+        <p>Sometimes when a craft is imported into Blender, certain parts may use textures that you do not want. For example, booster cones or fuel tanks might import with a color or material different from what you expected. <br>In this section, you will learn how to open the shading editor, change the texture used by a part, and create unique textures for individual pieces.</p>
+        <hr>
+        <h4>Opening the Shading Workspace</h4>
+        <h5>Access the Texture Controls</h5>
+        <p>To begin editing textures, switch to Blender’s Shading workspace.
+            <ol>
+                <li>Click the Shading tab at the top of Blender.</li>
+                <li>elect the part of the ship you want to modify.</li>
+            </ol>
+        This workspace allows you to view and edit the materials and textures used by each object</p>
+        <img src="#" alt="example">
+        <hr>
+        <h4>Changing a Part’s Texture</h4>
+        <h5>Selecting a Different Texture</h5>
+        <p>Once you have selected a part, locate the Image Texture node in the shader editor. You should see a texture labeled MainTex. This is the main texture used by the object.<br>To change it:
+            <ol>
+                <li>Click the Image Texture node labeled “MainTex.”</li>
+                <li>Click the folder icon next to the texture name.</li>
+            </ol>
+        </p>
+        <img src="" alt="example">
+        <hr>
+        <p>This will open a list of available textures for that part. For example, a cone may have multiple texture options such as:
+            <ul>
+                <li>Regular</li>
+                <li>Orange</li>
+                <li>White</li>
+            </ul>
+        Select the texture you want to use. In this example, we will choose the white version</p>
+        <img src="" alt="example">
+        <hr>
+        <h4>Adjusting Normal Maps</h4>
+        <h5>Matching the Texture’s Surface Detail</h5>
+        <p>Some parts also include bump or normal maps that control how surface details appear in lighting. If you change the main texture, you should also update the normal map to match it.<br>For example:
+            <ol>
+                <li>If you selected the white texture, choose the white normal map as well.</li>
+            </ol>
+        Matching these ensures the surface details appear correctly when the object is rendered.</p>
+        <img src="" alt="example">
+        <hr>
+        <h4>Changing Textures on Individual Parts</h4>
+        <h5>Editing One Part Without Affecting Other</h5>
+        <p>Many imported ship parts share the same material. Because of this, changing the texture on one object may also change it on every identical part. If you want to modify only one object, you will need to create a separate material.<br>To do this:
+            <ol>
+                <li>Open the Material Properties panel.</li>
+                <li>Locate the material name and the number next to it.</li>
+                <li>Click the number button to make the material single-user.</li>
+            </ol>
+        This disconnects the object from the shared material.</p>
+        <img src="" alt="example">
+        <hr>
+        <p>Next:
+            <ol>
+                <li>Click the Duplicate Texture button in the shader editor.</li>
+                <li>Change the texture as needed.</li>
+            </ol>
+        Now the texture will apply only to that object, without affecting the others.</p>
+        <img src="" alt="example">
+        <hr>
+        <h4>Result</h4>
+        <h5>Step 1:</h5>
+        <p>After adjusting the textures, your craft parts should now display the colors and materials you want.<br>You can now:
+            <ul>
+                <li>Customize individual ship components</li>
+                <li>Match textures across parts</li>
+                <li>Prepare the craft for lighting and rendering</li>
+            </ul>
+        </p>
+    </main>
+    <footer>
+        <p>Contact | Credits | Blender Website</p>
+    </footer>
+</body>
+</html>
