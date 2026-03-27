@@ -10,11 +10,12 @@
     
     <header>Blender Animation Tutorial</header>
     <nav></nav>
-    <h1>Step 1 - Installing the Blender Add-on</h1>
-    <h2>Overview:</h2>
+    <h3>Step 1 - Installing the Blender Add-on</h3>
+    <h4>Overview:</h4>
     <p>Before we can import Kerbal Space Program ships into Blender, we first need to install the KSP Blender add-on. This add-on allows Blender to read craft files and individual game parts so they can be edited, rendered, or animated.</p>
     <section>
         <div>
+            <hr>
             <p class="explain">Open the Add-on Installer<br>
             Once the add-on ZIP file has finished downloading, open Blender.<br>To install the add-on:
             <ul>
@@ -27,14 +28,17 @@
             <img src="images/step_1_img_1.png">
         </div>
         <div>
+            <hr>
             <p class="explain">After clicking install, locate the downloaded add-on ZIP file and select it. <br>Once installed, make sure the add-on checkbox is enabled so Blender activates it.</p>
             <img src="images/step_1_img_2.png">
         </div>
         <div>
+            <hr>
             <p class="explain">Before closing the Preferences window, expand the newly installed add-on settings. Inside the panel you will see an option labeled GameData Path.<br>Blender needs to know where your Kerbal Space Program game files are located.</p>
             <img src="images/step_1_img_3.png">
         </div>
         <div>
+            <hr>
             <p class="explain">If you installed the game through Steam, you can find it at:
                 <ul>
                     <li>OS</li>
@@ -48,40 +52,64 @@
             <img src="images/step_1_img_4.png">
         </div>
         <div>
+            <hr>
             <p class="explain">Make sure the final folder listed in the path is GameData.<br>This is required for the add-on to work correctly.</p>
             <img src="images/step_1_img_5.png">
         </div>
         <div class="overview">
-            <h2>Overview</h2>
+            <h5>Overview</h5>
             <p class="explain"></p>
         </div>
     </section>
     <section>
-        <h2> Importing a Craft File</h2>
-        <h3>Open the Craft Importer</h3>
+        <hr>
+        <h4> Importing a Craft File</h4>
+        <h5>Open the Craft Importer</h5>
         <div>
-            <p></p>
+            <p>To import a ship from Kerbal Space Program:
+                <ol>
+                    <li>Click File in the Blender menu.</li>
+                    <li>Select Import.</li>
+                    <li>Choose KSP Craft</li>
+                </ol>
+            </p>
             <img src="#">
         </div>
         <div>
-            <p></p>
+            <hr>
+            <p>Next, navigate to the Kerbal Space Program folder that you bookmarked earlier when
+            installing the add-on.<br>From here you have two options:
+            <ul>
+                <li>Ships – Contains the stock ships included with the game.</li>
+                <li>Saves – Contains ships you have built and saved in your own game files.</li>
+            </ul>
+            </p>
             <img src="#">
         </div>
         <div>
-            <p></p>
+            <hr>
+            <p>For this tutorial we will import a stock ship.<br>Navigate to:
+                <ul>
+                    <li>Ships</li>
+                    <li>VAB</li>
+                    <li>Kerbal X</li>
+                </ul>
+            Select the craft file and import it into Blender.</p>
             <img src="#">
         </div>
     </section>
     <section>
         <div>
-        <h2>Blender Version Note</h2>
-        <h3>Working in Different Blender Versions</h3>
+        <hr>
+        <h4>Blender Version Note</h4>
+        <h5>Working in Different Blender Versions</h5>
         <p>At this point, you do not need to remain in Blender 3.6. You can save the imported craft file and then append it into another Blender version if you prefer.<br>This tutorial continues using Blender 3.6, since it is commonly used for animation workflows, but the process should work in other compatible versions as well.</p>
         <img src="#">
         </div>
         <div>
-            <h2>Separating the Ship Parts</h2>
-            <h3>Converting Instances into Real Objects</h3>
+            <hr>
+            <h4>Separating the Ship Parts</h4>
+            <h5>Converting Instances into Real Objects</h5>
             <p class="explain">When the craft first imports into Blender, it will appear as one combined object and will contain many empty objects used by the game.<br>To separate the parts:
                 <ol>
                     <li>Select the imported ship.</li>
@@ -93,8 +121,9 @@
             <img src="#">
         </div>
         <div>
-            <h2>Removing Unnecessary Empty Objects</h2>
-            <h3>Cleaning Up the Scene</h3>
+            <hr>
+            <h4>Removing Unnecessary Empty Objects</h4>
+            <h5>Cleaning Up the Scene</h5>
             <p class="explain">After separating the objects, the scene will still contain many empty objects that are not needed for animation.<br>Instead of deleting them one by one, you can remove them quickly using the following method:
                 <ol>
                     <li>Click Select</li>
@@ -111,20 +140,22 @@
             <img src="#">
         </div>
         <div>
-            <h2>Checking Materials and Parts</h2>
-            <h3>Reviewing Imported Materials</h3>
+            <hr>
+            <h4>Checking Materials and Parts</h4>
+            <h5>Reviewing Imported Materials</h5>
             <p class="explain">Switch to Material Preview Mode to see how the craft materials were imported.<br>You should now see:
                 <ul>
                     <li>Colored parts</li>
                     <li>Engine covers</li>
                     <li>Various materials used by the craft</li>
                 </ul>
-            At this</p>
+            At this stage, you want to delete any parts you do not need and clean up the model beforecontinuing.</p>
             <img src="#">
         </div>
         <div>
-            <h2>Preparing the Ship for Animation</h2>
-            <h3>Parenting the Craft to an Empty Object</h3>
+            <hr>
+            <h4>Preparing the Ship for Animation</h4>
+            <h5>Parenting the Craft to an Empty Object</h5>
             <p class="explain">Since the craft is made up of many individual parts, animating it directly can be difficult. A simple solution is to parent the ship to a single control object.<br>To do this:
                 <ol>
                     <li>Press Shift + A</li>
