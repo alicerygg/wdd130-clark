@@ -8,7 +8,7 @@ I woud like one person to work on putting all the information into the steps
 > I can do this (Garyoeng)
 > Everything looks amazing!
 > Would you like to size all the pictures down? They should be something like 200-300 px.
-> Do you want me to do that in css? or should we resize actual image files
+> Yeah I did:) I think we're missing some pics tho 
 
 
 
