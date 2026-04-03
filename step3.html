@@ -9,15 +9,14 @@
 <body>
     <header>
         <img id="logo" src="images/logo.jpg" alt="logo">
-        <h2>Blender Animation Tutorial</h2>
+        <p>Blender Animation Tutorial</p>
     </header>
     <nav>
         <hr>
         <a href="index.html">Home</a>
-        <a>Add-on</a>
-        <a>Importing</a>
-        <a>Texturing</a>
-        <a>Rigs</a>
+        <a href="#">Tutorial Steps</a>
+        <a href="#">Resources</a>
+        <a href="#">Download</a>
         <hr>
     </nav>
     <main>
@@ -29,18 +28,18 @@
         <h4>Access the Texture Controls</h4>
         <p>To begin editing textures, switch to Blender’s Shading workspace.
             <ol>
-                <li>Click the Shading tab at the top of Blender.</li>
-                <li>elect the part of the ship you want to modify.</li>
+                <li>Click the <b>Shading</b> tab at the top of Blender.</li>
+                <li>elect the <b>part of the ship</b> you want to modify.</li>
             </ol>
-        This workspace allows you to view and edit the materials and textures used by each object</p>
+        This workspace allows you to view and edit the <b>materials and textures</b> used by each object</p>
         <img src="images/step_3_img_1.png" alt="example">
         <hr>
         <h3>Changing a Part’s Texture</h3>
         <h4>Selecting a Different Texture</h4>
-        <p>Once you have selected a part, locate the Image Texture node in the shader editor. You should see a texture labeled MainTex. This is the main texture used by the object.<br>To change it:
+        <p>Once you have selected a part, locate the <b>Image Texture node</b> in the shader editor. You should see a texture labeled MainTex. This is the main texture used by the object.<br>To change it:
             <ol>
-                <li>Click the Image Texture node labeled “MainTex.”</li>
-                <li>Click the folder icon next to the texture name.</li>
+                <li>Click the <b>Image Texture node labeled “MainTex.”</b></li>
+                <li>Click the <b>folder icon</b> next to the texture name.</li>
             </ol>
         </p>
         <img src="images/step_3_img_2.png" alt="example">
@@ -51,49 +50,59 @@
                 <li>Orange</li>
                 <li>White</li>
             </ul>
-        Select the texture you want to use. In this example, we will choose the white version</p>
+        Select the texture you want to use. In this example, we will choose the <b>white</b> version</p>
         <img src="images/step_3_img_3.png" alt="example">
         <hr>
         <h3>Adjusting Normal Maps</h3>
         <h4>Matching the Texture’s Surface Detail</h4>
-        <p>Some parts also include bump or normal maps that control how surface details appear in lighting. If you change the main texture, you should also update the normal map to match it.<br>For example:
+        <p>Some parts also include <b>bump or normal maps</b> that control how surface details appear in lighting. If you change the main texture, you should also update the <b>normal</b> map to match it.<br>For example:
             <ol>
-                <li>If you selected the white texture, choose the white normal map as well.</li>
+                <li>If you selected the <b>white texture</b>, choose the <b>white normal map</b> as well.</li>
             </ol>
         Matching these ensures the surface details appear correctly when the object is rendered.</p>
         <img src="images/step_3_img_4.png" alt="example">
         <hr>
         <h3>Changing Textures on Individual Parts</h3>
         <h4>Editing One Part Without Affecting Other</h4>
-        <p>Many imported ship parts share the same material. Because of this, changing the texture on one object may also change it on every identical part. If you want to modify only one object, you will need to create a separate material.<br>To do this:
+        <p>Many imported ship parts share the same material. Because of this, changing the texture on one object may also change it on every identical part. If you want to <b>modify only one object</b>, you will need to create a separate material.<br>To do this:
             <ol>
-                <li>Open the Material Properties panel.</li>
-                <li>Locate the material name and the number next to it.</li>
-                <li>Click the number button to make the material single-user.</li>
+                <li>Open the <b>Material Properties panel</b>.</li>
+                <li>Locate the <b>material name</b> and the number next to it.</li>
+                <li>Click the <b>number button</b> to make the material single-user.</li>
             </ol>
         This disconnects the object from the shared material.</p>
         <img src="images/step_3_img_5.png" alt="example">
         <hr>
         <p>Next:
             <ol>
-                <li>Click the Duplicate Texture button in the shader editor.</li>
+                <li>Click the <b>Duplicate Texture</b> button in the shader editor.</li>
                 <li>Change the texture as needed.</li>
             </ol>
-        Now the texture will apply only to that object, without affecting the others.</p>
+        Now the texture will apply <b>only to that object</b>, without affecting the others.</p>
         <img src="images/step_3_img_6.png" alt="example">
         <hr>
         <h3>Result</h3>
         <h4>Step 1:</h4>
-        <p>After adjusting the textures, your craft parts should now display the colors and materials you want.<br>You can now:
+        <p>After adjusting the textures, your craft parts should now display the <b>colors and materials you want</b>.<br>You can now:
             <ul>
                 <li>Customize individual ship components</li>
                 <li>Match textures across parts</li>
-                <li>Prepare the craft for lighting and rendering</li>
+                <li>Prepare the craft for <b>lighting and rendering</b></li>
             </ul>
         </p>
+        <hr>
+        <div class="move">
+            <a href="step2.html" class="pre">Previous</a>
+            <a href="step4.html" class="next">Next</a>
+        </div>
+        <hr>
     </main>
-    <footer>
-        <p>Contact | Credits | Blender Website</p>
-    </footer>
+<footer>        
+    <p>Contact</p>
+    <p>|</p>
+    <p>Credits</p>
+    <p>|</p>
+    <p>Blender Website</p>
+</footer>
 </body>
 </html>
